@@ -13,7 +13,6 @@ public class Shop {
 	final static double TAX_RATE = 1.04;
 
 	public Shop() {
-		cash = 0.0;
 		inventory = new Product[10];
 	}
 

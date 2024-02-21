@@ -78,6 +78,7 @@ public class Product {
 	}
 	
 	public void expire() {
+		EXPIRATION_RATE = 0.2;
 		this.publicPrice = this.getPublicPrice()*EXPIRATION_RATE;
 	}
 	
